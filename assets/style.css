@@ -1,0 +1,187 @@
+.container {
+    width: 1170px;
+    margin: 0px auto;
+    min-height: 40px;
+}
+
+/* ===========HEAD COPYRIGHT========== */
+#wp-head-copyright {
+    background-color: rgb(28, 39, 1);
+    height: 32px;
+}
+
+#head-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    padding-right: 3px;
+    color: white;
+}
+#head-copyright i{
+    margin-right: 850px;
+}
+#head-copyright h5{
+    margin: 0px auto;
+    padding: 3px 0px;
+}
+/* ==============HEADER================= */
+#header {
+    background-color: #202020;
+    min-height: 50px;
+}
+
+#wp-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* ==============CONTENT============== */
+ul#main-menu {
+    margin-bottom: 0px;
+}
+
+#wp-nav li {
+    display: inline;
+    padding: 10px 15px;
+}
+#wp-nav li a:hover{
+    color: #4db2ec;
+}
+
+#wp-nav li a {
+    color: white;
+}
+
+#wp-nav ul {
+    border-right: 10px solid red;
+}
+ul#main-menu li a{
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 500;
+}
+#main-menu li:first-child a {
+    padding-left: 0px;
+}
+
+#list-featured-post h3 {
+    background: #23282d;
+    ;
+    display: inline-block;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 3px 5px;
+}
+
+.box-head h3 {
+    background-color: rgb(44 42 42);
+    display: inline-block;
+    padding: 3px 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#sidebar .box-head h3 {
+    background-color: rgb(227, 15, 15);
+    display: inline-block;
+    padding: 2px 7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.list-post li {
+    display: flex;
+}
+
+.post-thumb img {
+    width: 270px;
+    height: 180px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#wp-content {
+    display: flex;
+    border-top: 1px solid black;
+    padding: 30px 0px;
+}
+
+#content {
+    flex: 765px;
+    padding-right: 15px;
+}
+
+#sidebar {
+    flex: 375px;
+    padding-left: 25px;
+}
+
+.box-title a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.author {
+    color: red;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+
+ul.list-topic li {
+    padding: 5px 0px;
+    position: relative;
+}
+
+span.num-post {
+    position: absolute;
+    right: 4px;
+}
+
+.list-menu-sidebar {
+    font-size: 19px;
+    color: #6b6b6b;
+}
+
+.list-menu-sidebar:hover {
+    color: #ff5757;
+}
+#slogan{
+    display: flex;
+}
+#wp-footer{
+    background-color: #202020;
+}
+.box-slogan p{
+    color: white;
+}
+#footer{
+    display: flex;
+    padding: 40px 0px;
+}
+#slogan{
+    flex:765px;
+}
+#follow-social{
+    flex: 365px;
+}
+#slogan .logo{
+    padding:40px 0px;
+    padding-right: 35px;
+}
+.box-follow{
+    margin-left: 150px;
+}
+.box-body a{
+   padding: 3px;
+}
+.logo img{
+    max-width: 200px;
+    height: auto;
+    padding: 20px 0px;
+    align-items: center;
+}

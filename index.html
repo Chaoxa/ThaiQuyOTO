@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/fonts awesome/css/all.css">
+    <link rel="stylesheet" href="./assets/Rules/global.css">
+    <link rel="stylesheet" href="./assets/Rules/reset.css">
+    <link rel="stylesheet" href="./assets/Plugin/slider/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/Plugin/slider/owlcarousel/assets/owl.theme.default.css">
+    <script src="./assets/Plugin/slider/jquery.min.js"></script>
+    <script src="./assets/Plugin/slider/owlcarousel/owl.carousel.min.js"></script>
+    <title>Thái Quý</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="wp-head-copyright">
+            <div id="head-copyright" class="container">
+                <h5>Contact : 0375284572</h5>
+                <a href=""><i class="fa-solid fa-phone"></i></a>
+                <div id="login">
+                    <a href="">Đăng kí</a>
+                    <span>|</span>
+                    <a href="">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+        <!-- End contact -->
+        <div id="header">
+            <div id="wp-logo" class="container">
+                <a class="logo" href=""><img src="./images/logo.png" alt="logo"></a>
+                <div>
+                    <input class="text-search" type="text" placeholder="Bạn muốn tìm gì?" name="q">
+                    <button class="bt-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <nav id="wp-nav" class="container">
+                <ul id="main-menu" class="list-none">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Mua bán xe</a></li>
+                    <li><a href="">Bảng giá</a></li>
+                    <li><a href="">Loại xe</a></li>
+                    <li><a href="">Sứ mệnh</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Sự kiện</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <!-- End logo -->
+        </div>
+        <!-- End header -->
+        <script>
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 2500,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                })
+            });
+        </script>
+        <div id="featured-post" class="container">
+            <div id="list-featured-post">
+                <div class="box-head">
+                    <h3>NỔI BẬT</h3>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="./images/vinfast-1.jpg" alt=""></div>
+                    <div class="item"><img src="./images/vinfast-2.jpg" alt=""></div>
+                    <div class="item"><img src="./images/vinfast-3.jpg" alt=""></div>
+                    <div class="item"><img src="./images/vinfast-4.jpg" alt=""></div>
+                    <div class="item"><img src="./images/vinfast-5.jpg" alt=""></div>
+                    <div class="item"><img src="./images/vinfast-6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- End featured-post -->
+        <div id="wp-content" class="container">
+            <div class="content">
+                <div class="box-head">
+                    <h3>BÀI VIẾT MỚI</h3>
+                </div>
+                <div class="box-body">
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-1.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Mercedes-Benz GLC 300 4MATIC 2022 - 2 tỉ 569 triệu</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-2.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Land Rover Range Rover AutoBiography LWB 3.0L 2020 - 9 tỉ 750 triệu</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-3.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Mitsubishi Attrage 1.2L MT 2021 - 375 triệu</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-4.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Mitsubishi Pajero Sport D 4x2 AT 2021 - 1 tỉ 110 triệu</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-5.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Hyundai Grand i10 Sedan 1.2 AT 2019 - 355 triệu</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-post list-none">
+                        <li>
+                            <div class="post-thumb">
+                                <img src="./images/pic-6.jpg" alt="">
+                            </div>
+                            <div class="more-info">
+                                <div class="box-title">
+                                    <a href="">Mercedes-Maybach S 580 4MATIC 2022 - 17 tỉ</a>
+                                </div>
+                                <a class="author" href="https://www.facebook.com/shopcongnghe159/">Trần Quý</a>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, placeat. Non
+                                    accusamus, qui animi dicta dolorum omnis quae odio eaque sint quas quo reiciendis,
+                                    amet voluptates error asperiores est nam?</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End wp-content -->
+            <div id="sidebar" class="container">
+                <a class="ads" href=""><img src="./images/ads.png" alt=""></a>
+                <div class="box-head">
+                    <h3>CHỦ ĐỀ QUAN TÂM</h3>
+                </div>
+                <div class="box-body">
+
+                    <ul class="list-topic list-none">
+                        <li><a class="list-menu-sidebar" href="">Thời trang <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Đời sống <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Xã hội <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Bóng đá <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Điện ảnh <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Sự kiện <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Du lịch <span class="num-post">20</span></a></li>
+                        <li><a class="list-menu-sidebar" href="">Nội trợ <span class="num-post">20</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End sidebar -->
+        <div id="wp-footer">
+            <div id="footer" class="container">
+                <div id="slogan">
+                    <a class="logo" href=""><img src="./images/logo.png" alt=""></a>
+                    <div class="box-slogan">
+                        <div class="box-head">
+                            <h3>VỀ CHÚNG TÔI</h3>
+                        </div>
+                        <div class="box-body">
+                            <p>Thái Quý MOTO là một trang web đáng tin cậy trong lĩnh vực mua bán ô tô hàng đầu tại
+                                thị trường Việt Nam, đến nay đã có hơn 200 người tin cậy và đạt kết quả tốt.</p>
+                        </div>
+                        <a href="thaiquy.lovestoblog.com">thaiquy.lovestoblog.com</a>
+                    </div>
+                </div>
+
+                <div id="follow-social">
+                    <div class="box-follow">
+                        <div class="box-head">
+                            <h3>THEO DÕI</h3>
+                        </div>
+                        <div class="box-body">
+                            <a href="https://www.facebook.com/shopcongnghe159/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/shopcongnghe159/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/shopcongnghe159/"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/shopcongnghe159/"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End footer -->
+        <div id="copyright">
+
+        </div>
+        <!-- End copyright -->
+    </div>
+</body>
+
+</html>

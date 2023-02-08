@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <title>Owl Slider</title>
+</head>
+
+<body>
+    
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+</script>
+<div class="owl-carousel owl-theme">
+    <div class="item"><h4><img src="../slider/images/product1.jpg" alt=""></h4></div>
+    <div class="item"><h4><img src="../slider/images/product2.jpg" alt=""></h4></div>
+    <div class="item"><h4><img src="../slider/images/product3.jpg" alt=""></h4></div>
+    <div class="item"><h4><img src="../slider/images/product4.jpg" alt=""></h4></div>
+    <div class="item"><h4><img src="../slider/images/product5.jpg" alt=""></h4></div>
+    <div class="item"><h4><img src="../slider/images/product6.jpg" alt=""></h4></div>
+</div>
+</body>
+
+</html>
